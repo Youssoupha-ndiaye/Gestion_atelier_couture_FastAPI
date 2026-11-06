@@ -11,9 +11,9 @@ from sqlalchemy.orm import Session
 
 from app.core.config import settings
 from app.core.database import SessionLocal
-# from app.core.security import hash_password
-# from app.models.catalogue import TypeVetement
-# from app.models.utilisateur import Utilisateur
+from app.core.security import hash_password
+from app.models.catalogue import TypeVetement
+from app.models.utilisateur import Utilisateur
 
 # ⚠ Ajuster si l'Annexe B de l'énoncé donne d'autres noms / prix / délais.
 PRESTATIONS = [
